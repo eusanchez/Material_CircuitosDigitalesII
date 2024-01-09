@@ -7,6 +7,9 @@ vvp tb.vvp
 gtkwave tb.vcd
 
 ## To Do
-Arreglar los encabezados
-Arreglar el archivo de compilación de Fibonacci
-Codear Tarea 1
+<ul>
+  <li>Arreglar los encabezados</li>
+  <li>Arreglar el archivo de compilación de Fibonacci</li>
+  <li>Codear Tarea 1</li>
+</ul>
+
