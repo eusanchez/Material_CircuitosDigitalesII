@@ -1,0 +1,143 @@
+$date
+	Mon Jan  8 20:18:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module fibonacci_testbench $end
+$var wire 1 ! rst $end
+$var wire 12 " fibout [11:0] $end
+$var wire 1 # enb $end
+$var wire 1 $ clk $end
+$scope module DUT $end
+$var wire 12 % fibout [11:0] $end
+$var wire 1 ! rst $end
+$var wire 1 # enb $end
+$var wire 1 $ clk $end
+$var reg 12 & valor_actual [11:0] $end
+$var reg 12 ' valor_previo [11:0] $end
+$upscope $end
+$scope module test $end
+$var wire 12 ( fibout [11:0] $end
+$var reg 1 $ clk $end
+$var reg 1 # enb $end
+$var reg 1 ! rst $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+0$
+1#
+bx "
+1!
+$end
+#5
+b1 &
+b0 "
+b0 %
+b0 (
+b0 '
+1$
+#10
+0$
+#15
+b1 "
+b1 %
+b1 (
+b1 '
+1$
+0!
+#20
+0$
+#25
+b10 &
+1$
+#30
+0$
+#35
+b11 &
+b10 "
+b10 %
+b10 (
+b10 '
+1$
+#40
+0$
+#45
+b101 &
+b11 "
+b11 %
+b11 (
+b11 '
+1$
+#50
+0$
+#55
+b1000 &
+b101 "
+b101 %
+b101 (
+b101 '
+1$
+#60
+0$
+#65
+b1101 &
+b1000 "
+b1000 %
+b1000 (
+b1000 '
+1$
+#70
+0$
+#75
+b10101 &
+b1101 "
+b1101 %
+b1101 (
+b1101 '
+1$
+#80
+0$
+#85
+b100010 &
+b10101 "
+b10101 %
+b10101 (
+b10101 '
+1$
+#90
+0$
+#95
+b110111 &
+b100010 "
+b100010 %
+b100010 (
+b100010 '
+1$
+#100
+0$
+#105
+b1011001 &
+b110111 "
+b110111 %
+b110111 (
+b110111 '
+1$
+#110
+0$
+#115
+b10010000 &
+b1011001 "
+b1011001 %
+b1011001 (
+b1011001 '
+1$
