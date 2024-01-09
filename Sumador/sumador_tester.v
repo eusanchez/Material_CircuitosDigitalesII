@@ -37,6 +37,10 @@ end
 // end
 
 initial begin
+    clk = 0;
+end
+
+initial begin
     $display("Esto es un mensaje en la terminal");
     // Defino el comportamiento de mis entradas (a y b), para ver que va a pasar con mi salida (c). 
     enb = 1'b1;
